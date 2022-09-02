@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s2001019\\source\\repos\\Harjoitus 5\\Harjoitus 5\\Harjoitus 5.csproj": {}
+    "C:\\Users\\OMISTAJA\\source\\repos\\SQL\\Harjoitus-5\\Harjoitus 5\\Harjoitus 5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s2001019\\source\\repos\\Harjoitus 5\\Harjoitus 5\\Harjoitus 5.csproj": {
+    "C:\\Users\\OMISTAJA\\source\\repos\\SQL\\Harjoitus-5\\Harjoitus 5\\Harjoitus 5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s2001019\\source\\repos\\Harjoitus 5\\Harjoitus 5\\Harjoitus 5.csproj",
+        "projectUniqueName": "C:\\Users\\OMISTAJA\\source\\repos\\SQL\\Harjoitus-5\\Harjoitus 5\\Harjoitus 5.csproj",
         "projectName": "Harjoitus 5",
-        "projectPath": "C:\\Users\\s2001019\\source\\repos\\Harjoitus 5\\Harjoitus 5\\Harjoitus 5.csproj",
-        "packagesPath": "C:\\Users\\s2001019\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s2001019\\source\\repos\\Harjoitus 5\\Harjoitus 5\\obj\\",
+        "projectPath": "C:\\Users\\OMISTAJA\\source\\repos\\SQL\\Harjoitus-5\\Harjoitus 5\\Harjoitus 5.csproj",
+        "packagesPath": "C:\\Users\\OMISTAJA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OMISTAJA\\source\\repos\\SQL\\Harjoitus-5\\Harjoitus 5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\s2001019\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OMISTAJA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,9 +46,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
